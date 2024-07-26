@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "https://trip-tales-roan.vercel.app/posts/";
+const url = "https://vercel.com/shriyatiwaris-projects/trip-tales/EB2PG4iNjW3jPe3615VMQ8mJAhR4/posts/";
 
 export const getPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
